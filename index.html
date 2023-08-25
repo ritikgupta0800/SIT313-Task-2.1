@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> <!-- Link to external stylesheet -->
+    <title>DEV@Deakin Welcome</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Deakin University Offical Site</h1>
+        <p>Join our community to stay continuously connected</p>
+        <form id="subscribe-form" action="/" method="POST"> <!-- Subscribe form -->
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required> <!-- Email input field -->
+            <button type="submit">Subscribe</button> <!-- Subscribe button -->
+        </form>
+        <div id="message" class="hidden"></div> <!-- Message container (hidden initially) -->
+    </div>
+    <script src="server.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
